@@ -17,3 +17,17 @@ header, main, footer {
     padding: 21px;
     text-align: center;
 }
+
+
+header {
+    background-color: #f8b400;
+}
+
+main {
+    background-color: blue;
+}
+
+
+footer {
+    background-color: aqua;
+}
