@@ -5,12 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lecture Activity 5</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header, footer {
+            height: 100px;
+            background-color: teal;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer {
+            height: 50px;
+            background-color: beige;
+        }
+
+        .main {
+            background-color:blueviolet;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>Header</header>
-        <main>Main Content</main>
-        <footer>Footer</footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 header">
+                Header 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 main">
+                Main Content
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 footer">
+                Footer
+            </div>
+        </div>
     </div>
 </body>
 </html>
